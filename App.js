@@ -1,6 +1,6 @@
 const express = require("express"); // Import Express
 const app = express(); // Initialize Express app
-
+// app  generaotr
 app.use(express.json()); // Middleware to parse JSON requests
 
 const PORT = 3000; // Define the port
